@@ -188,7 +188,7 @@ class MailManager
             $css .= PHP_EOL . $template->layout->content_css;
         }
 
-        $html = (new CssToInlineStyles)->convert($html, $css);
+        //$html = (new CssToInlineStyles)->convert($html, $css);
 
         return $html;
     }
